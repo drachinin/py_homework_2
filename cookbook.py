@@ -1,7 +1,7 @@
 def cookbook():
     global cookbook
     cookbook = {}
-    with open("recipes.txt") as file: #надо разобраться что файла не видят
+    with open("recipes.txt") as file:
         for line in file:
             dish_name = line.strip()
             dish_ingredients = []
